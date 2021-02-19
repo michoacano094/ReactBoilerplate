@@ -1,5 +1,11 @@
+@import './Vars.scss';
+@import './Media.scss';
 body {
-  margin: 0;
-  background-color: rebeccapurple;
-  color: white;
+  margin: 0px;
+  background-color: $theme-base-color;
+  font-family: $theme-font;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
